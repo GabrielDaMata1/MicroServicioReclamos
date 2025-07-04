@@ -15,14 +15,44 @@ namespace Application.Services
 
         private readonly IReclamoMongoRepository _reclamoMongoRepository;
         private readonly IReclamoPostgreSQLRepository _reclamoPostgreSQLRepository;
+        private readonly IResolucionReclamoMongoRepository _resolucionReclamoMongoRepository;
+        private readonly IResolucionReclamoPostgreSQLRepository _resolucionReclamoPostgreSQLRepository;
 
 
-        public ReclamoService(IReclamoMongoRepository reclamoMongoRepository, IReclamoPostgreSQLRepository reclamoPostgreSQLRepository)
+        public ReclamoService(IReclamoMongoRepository reclamoMongoRepository, IReclamoPostgreSQLRepository reclamoPostgreSQLRepository, IResolucionReclamoPostgreSQLRepository resolucionReclamoPostgreSQLRepository, IResolucionReclamoMongoRepository resolucionReclamoMongoRepository)
 
         {
             _reclamoMongoRepository = reclamoMongoRepository;
             _reclamoPostgreSQLRepository = reclamoPostgreSQLRepository;
+            _resolucionReclamoMongoRepository= resolucionReclamoMongoRepository;
+            _resolucionReclamoPostgreSQLRepository = resolucionReclamoPostgreSQLRepository;
 
+        }
+
+        public async Task<HttpStatusCode> ActualizarEstadoReclamoMongoAsync(Guid idReclamo, string nuevoEstado)
+        {
+            try
+            {
+                var resul = await _reclamoMongoRepository.ActualizarEstadoReclamo(idReclamo, nuevoEstado);
+                return resul;
+            }
+            catch (System.Exception ex)
+            {
+                throw new MongoRepositoryException($"Error al intentar actualizar el estado del reclamo en MongoDB {ex.Message}", ex);
+            }
+        }
+
+        public async Task<HttpStatusCode> ActualizarEstadoReclamoPostgreSQLAsync(Guid idReclamo, string nuevoEstado)
+        {
+            try
+            {
+                var resul = await _reclamoPostgreSQLRepository.ActualizarEstadoReclamo(idReclamo, nuevoEstado);
+                return resul;
+            }
+            catch (System.Exception ex)
+            {
+                throw new PostgresRepositoryException($"Error al intentar actualizar el estado del reclamo en PostgreSQL {ex.Message}", ex);
+            }
         }
 
         public async Task<Reclamo> ConsultarReclamoMongoAsync(Guid idReclamo)
@@ -64,6 +94,19 @@ namespace Application.Services
             }
         }
 
+        public async Task<ResolucionReclamo> ConsultarResolucionReclamoMongoAsync(Guid idReclamo)
+        {
+            try
+            {
+                var resul = await _resolucionReclamoMongoRepository.ConsultarResolucionReclamoMongo(idReclamo);
+                return resul;
+            }
+            catch (System.Exception ex)
+            {
+                throw new MongoRepositoryException($"Error al intentar obtener la resolución del reclamo del subastador {ex.Message}", ex);
+            }
+        }
+
         public async Task<HttpStatusCode> RegistrarReclamoMongoAsync(Reclamo reclamo)
         {
             try
@@ -82,6 +125,32 @@ namespace Application.Services
             try
             {
                 var resul = await _reclamoPostgreSQLRepository.RegistrarReclamoAsync(reclamo);
+                return resul;
+            }
+            catch (System.Exception ex)
+            {
+                throw new PostgresRepositoryException($"Error al intentar registrar el reclamo en PostgreSQL {ex.Message}", ex);
+            }
+        }
+
+        public async Task<HttpStatusCode> RegistrarResolucionReclamoMongoAsync(ResolucionReclamo resolucionReclamo)
+        {
+            try
+            {
+                var resul = await _resolucionReclamoMongoRepository.RegistrarResolucionReclamoMongo(resolucionReclamo);
+                return resul;
+            }
+            catch (System.Exception ex)
+            {
+                throw new MongoRepositoryException($"Error al intentar registrar la resolucion del reclamo en MongoDB {ex.Message}", ex);
+            }
+        }
+
+        public async Task<Guid> RegistrarResolucionReclamoPostgreSQLAsync(ResolucionReclamo resolucionReclamo)
+        {
+            try
+            {
+                var resul = await _resolucionReclamoPostgreSQLRepository.RegistrarResolucionReclamo(resolucionReclamo);
                 return resul;
             }
             catch (System.Exception ex)

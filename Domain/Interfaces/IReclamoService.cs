@@ -19,5 +19,14 @@ namespace Domain.Interfaces
 
         Task<List<Reclamo>> ConsultarReclamosPorSubastadorMongoAsync(Guid idSubastador);
 
+        Task<HttpStatusCode> RegistrarResolucionReclamoMongoAsync(ResolucionReclamo resolucionReclamo);
+
+        Task<Guid> RegistrarResolucionReclamoPostgreSQLAsync(ResolucionReclamo resolucionReclamo);
+
+        Task<HttpStatusCode> ActualizarEstadoReclamoMongoAsync(Guid idReclamo, string nuevoEstado);
+        Task<HttpStatusCode> ActualizarEstadoReclamoPostgreSQLAsync(Guid idReclamo, string nuevoEstado);
+
+        Task<ResolucionReclamo> ConsultarResolucionReclamoMongoAsync(Guid idReclamo);
+
     }
 }

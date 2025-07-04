@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using Domain.Entities;
@@ -25,6 +26,14 @@ namespace Infrastructure.Repositories.PostgreSQL
             await _dbContext.Reclamo.AddAsync(reclamoBD);
             await _dbContext.SaveChangesAsync();
             return reclamoBD.Id;
+        }
+
+        public async Task<HttpStatusCode> ActualizarEstadoReclamo(Guid idReclamo, string nuevoEstado)
+        {
+            var subasta = await _dbContext.Reclamo.FindAsync(idReclamo);
+            subasta.Estado = nuevoEstado;
+            await _dbContext.SaveChangesAsync();
+            return HttpStatusCode.OK;
         }
     }
 }

@@ -15,5 +15,7 @@ namespace Domain.Interfaces
         Task<List<Reclamo>> ConsultarReclamosMongo();
         Task<Reclamo> ConsultarReclamoMongo(Guid idReclamo);
         Task<List<Reclamo>> ConsultarReclamosPorSubastadorMongo(Guid idSubastador);
+
+        Task<HttpStatusCode> ActualizarEstadoReclamo(Guid idReclamo, string nuevoEstado);
     }
 }
