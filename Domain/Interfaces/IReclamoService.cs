@@ -13,6 +13,11 @@ namespace Domain.Interfaces
         Task<HttpStatusCode> RegistrarReclamoMongoAsync(Reclamo reclamo);
 
         Task<Guid> RegistrarReclamoPostgreSQLAsync(Reclamo reclamo);
+        Task<List<Reclamo>> ConsultarReclamosMongoAsync();
+
+        Task<Reclamo> ConsultarReclamoMongoAsync(Guid idReclamo);
+
+        Task<List<Reclamo>> ConsultarReclamosPorSubastadorMongoAsync(Guid idSubastador);
 
     }
 }

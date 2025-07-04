@@ -8,7 +8,7 @@ using MediatR;
 
 namespace Application.Command
 {
-    public class RegistrarReclamoCommand : IRequest<bool>
+    public class RegistrarReclamoCommand : IRequest<bool>   
     {
         public RegistrarReclamoDTO reclamoDto { get; set; }
 

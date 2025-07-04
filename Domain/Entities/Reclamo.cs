@@ -25,7 +25,7 @@ namespace Domain.Entities
 
         public FechaCreacionReclamoVO FechaCreacion { get; set; }
 
-
+        public Reclamo() { }
         public Reclamo( Guid idUsuario, Guid idSubasta, DescripcionReclamoVO descripcion, MotivoReclamoVO motivo, UrlEvidenciaReclamoVO urlEvidencia, FechaCreacionReclamoVO fechaCreacion, EstadoReclamoVO estadoReclamo)
         {
             Id = Guid.NewGuid();
@@ -38,7 +38,7 @@ namespace Domain.Entities
             EstadoReclamo = estadoReclamo;
         }
         [JsonConstructor]
-        public Reclamo(Guid id, Guid idUsuario, Guid idSubasta, DescripcionReclamoVO descripcion, MotivoReclamoVO motivo, UrlEvidenciaReclamoVO urlEvidencia, FechaCreacionReclamoVO fechaCreacion)
+        public Reclamo(Guid id, Guid idUsuario, Guid idSubasta, DescripcionReclamoVO descripcion, MotivoReclamoVO motivo, UrlEvidenciaReclamoVO urlEvidencia, FechaCreacionReclamoVO fechaCreacion, EstadoReclamoVO estadoReclamo)
         {
             Id = id;
             IdUsuario = idUsuario;
@@ -47,6 +47,8 @@ namespace Domain.Entities
             Motivo = motivo;
             UrlEvidencia = urlEvidencia;
             FechaCreacion = fechaCreacion;
+            EstadoReclamo = estadoReclamo;
+
         }
     }
 }
