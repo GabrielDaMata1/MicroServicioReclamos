@@ -86,5 +86,14 @@ namespace Infrastructure.Repositories.MongoDB
             return reclamos;
         }
 
+        public async Task<HttpStatusCode> ActualizarEstadoReclamo(Guid idReclamo, string nuevoEstado)
+        {
+            var filtro = Builders<ReclamoMongo>.Filter.Eq(s => s.Id, idReclamo);
+            var actualizacion = Builders<ReclamoMongo>.Update.Set(s => s.Estado, nuevoEstado);
+
+            await _reclamoCollection.UpdateOneAsync(filtro, actualizacion);
+            return HttpStatusCode.OK;
+        }
+
     }
 }

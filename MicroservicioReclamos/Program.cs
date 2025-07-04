@@ -52,6 +52,8 @@ builder.Services.AddMediatR(cfg =>
 builder.Services.AddSignalR();
 
 builder.Services.AddScoped<IReclamoMongoRepository, ReclamoMongoRepository>();
+builder.Services.AddScoped<IResolucionReclamoMongoRepository, ResolucionReclamoMongoRepository>();
+builder.Services.AddScoped<IResolucionReclamoPostgreSQLRepository, ResolucionReclamoPostgreSQLRepository>();
 builder.Services.AddScoped<IReclamoPostgreSQLRepository, ReclamoPostgreSQLRepository>();
 builder.Services.AddScoped<IReclamoService, ReclamoService>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
@@ -63,6 +65,8 @@ builder.Services.AddMassTransit(x =>
 {
 
     x.AddConsumer<ReclamoRegistradoConsumer>();
+    x.AddConsumer<ResolucionReclamoRegistradaConsumer>();
+
 
     x.UsingRabbitMq((context, cfg) =>
     {
@@ -76,6 +80,13 @@ builder.Services.AddMassTransit(x =>
         {
             e.ConfigureConsumer<ReclamoRegistradoConsumer>(context);
         });
+
+
+        cfg.ReceiveEndpoint("resolucionReclamo-registrado-queue", e =>
+        {
+            e.ConfigureConsumer<ResolucionReclamoRegistradaConsumer>(context);
+        });
+
 
     });
 });

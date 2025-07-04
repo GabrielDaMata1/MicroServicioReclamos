@@ -8,11 +8,8 @@ using Domain.Entities;
 
 namespace Domain.Interfaces
 {
-    public interface IReclamoPostgreSQLRepository
+    public interface IResolucionReclamoPostgreSQLRepository
     {
-        Task<Guid> RegistrarReclamoAsync(Reclamo reclamo);
-
-        Task<HttpStatusCode> ActualizarEstadoReclamo(Guid idReclamo, string nuevoEstado);
-
+        Task<Guid> RegistrarResolucionReclamo(ResolucionReclamo resolucionReclamo);
     }
 }
