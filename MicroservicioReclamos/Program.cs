@@ -40,6 +40,11 @@ builder.Services.AddHttpClient<UsuarioService>(client =>
     client.BaseAddress = new Uri("http://localhost:5001/api/usuarios/");
 });
 
+builder.Services.AddHttpClient<SubastaService>(client =>
+{
+    client.BaseAddress = new Uri("http://localhost:5003/api/Subastas/");
+});
+
 
 builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssembly(typeof(RegistrarReclamoCommand).Assembly));
@@ -50,7 +55,7 @@ builder.Services.AddScoped<IReclamoMongoRepository, ReclamoMongoRepository>();
 builder.Services.AddScoped<IReclamoPostgreSQLRepository, ReclamoPostgreSQLRepository>();
 builder.Services.AddScoped<IReclamoService, ReclamoService>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
-
+builder.Services.AddScoped<ISubastaService, SubastaService>();
 
 
 // Configuraci�n de RabbitMQ con MassTransit

@@ -11,5 +11,9 @@ namespace Domain.Interfaces
     public interface IReclamoMongoRepository
     {
         Task<HttpStatusCode> RegistrarReclamoMongo(Reclamo reclamo);
+
+        Task<List<Reclamo>> ConsultarReclamosMongo();
+        Task<Reclamo> ConsultarReclamoMongo(Guid idReclamo);
+        Task<List<Reclamo>> ConsultarReclamosPorSubastadorMongo(Guid idSubastador);
     }
 }
