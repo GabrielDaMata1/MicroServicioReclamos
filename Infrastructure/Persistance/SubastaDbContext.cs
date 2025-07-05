@@ -15,6 +15,8 @@ namespace Infrastructure.Persistance
 
         public DbSet<ReclamoPostgreSQL> Reclamo { get; set; }
         public DbSet<ResolucionReclamoPostgreSQL> ResolucionReclamo { get; set; }
+        public DbSet<ReclamoPremioPostgreSQL> ReclamoPremio { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -23,6 +25,10 @@ namespace Infrastructure.Persistance
                 .IsUnique();
 
             modelBuilder.Entity<ResolucionReclamoPostgreSQL>()
+                .HasIndex(u => u.Id)
+                .IsUnique();
+
+            modelBuilder.Entity<ReclamoPremioPostgreSQL>()
                 .HasIndex(u => u.Id)
                 .IsUnique();
 
