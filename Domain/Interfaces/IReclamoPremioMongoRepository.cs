@@ -12,5 +12,10 @@ namespace Domain.Interfaces
     {
         Task<HttpStatusCode> RegistrarReclamoPremioAsync(ReclamoPremio reclamoPremio);
 
+        Task<List<ReclamoPremio>> ConsultarReclamosPremiosUsuarioMongo(Guid idUsuario);
+
+        Task<ReclamoPremio> ConsultarReclamoPremioMongo(Guid idReclamoPremio);
+
+
     }
 }

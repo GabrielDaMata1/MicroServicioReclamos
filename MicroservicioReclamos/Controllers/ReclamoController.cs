@@ -80,5 +80,25 @@ namespace MicroservicioReclamos.Controllers
 
             return BadRequest(new ResultadoDTO { Mensaje = "El reclamo del premio  no pudo ser registrada.", Exito = false });
         }
+
+
+        [HttpGet("obtenerReclamosPremiosUsuario/{correo}")]
+        public async Task<IActionResult> ObtenerReclamosPremiosUsuario([FromRoute] string correo)
+        {
+            var resultado = await _mediator.Send(new ConsultarReclamosPremiosUsuarioQuery(correo));
+            return Ok(resultado);
+        }
+
+        [HttpPost("confirmarEntregaPremio/{idReclamoPremio}")]
+        public async Task<IActionResult> ConfirmarEntregaPremio([FromRoute] Guid idReclamoPremio)
+        {
+            var resultado = await _mediator.Send(new ConfirmarEntregaPremioCommand(idReclamoPremio));
+            if (resultado)
+            {
+                return Ok(new ResultadoDTO { Mensaje = "El reclamo del premio se ha confirmado exitosamente.", Exito = true });
+            }
+
+            return BadRequest(new ResultadoDTO { Mensaje = "El reclamo del premio  no pudo ser confirmado.", Exito = false });
+        }
     }
 }

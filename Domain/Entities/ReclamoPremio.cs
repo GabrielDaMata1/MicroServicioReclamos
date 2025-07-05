@@ -21,7 +21,7 @@ namespace Domain.Entities
 
         public FechaReclamoPremioVO FechaReclamo { get; set; }
 
-        public ReclamoPremio(Guid idSubasta, Guid idUsuario, DireccionEnvioPremioVO direccionEnvio, MetodoEntregaPremioVO metodoEntrega, FechaReclamoPremioVO fechaReclamo)
+        public ReclamoPremio(Guid idUsuario, Guid idSubasta, DireccionEnvioPremioVO direccionEnvio, MetodoEntregaPremioVO metodoEntrega, FechaReclamoPremioVO fechaReclamo)
         {
             Id = Guid.NewGuid();
             IdSubasta = idSubasta;
@@ -31,7 +31,7 @@ namespace Domain.Entities
             FechaReclamo = fechaReclamo;
         }
         [JsonConstructor]
-        public ReclamoPremio(Guid id, Guid idSubasta, Guid idUsuario, DireccionEnvioPremioVO direccionEnvio, MetodoEntregaPremioVO metodoEntrega, FechaReclamoPremioVO fechaReclamo)
+        public ReclamoPremio(Guid id, Guid idUsuario, Guid idSubasta, DireccionEnvioPremioVO direccionEnvio, MetodoEntregaPremioVO metodoEntrega, FechaReclamoPremioVO fechaReclamo)
         {
             Id = id;
             IdSubasta = idSubasta;
