@@ -32,5 +32,9 @@ namespace Domain.Interfaces
 
         Task<Guid> RegistrarReclamoPremioPostgreSQLAsync(ReclamoPremio reclamoPremio);
 
+        Task<List<ReclamoPremio>> ConsultarReclamosPremiosUsuarioMongoAsync(Guid idUsuario);
+
+        Task<ReclamoPremio> ConsultarReclamoPremioMongoAsync(Guid idReclamoPremio);
+
     }
 }

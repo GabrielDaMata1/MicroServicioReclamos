@@ -72,6 +72,20 @@ namespace Application.Services
             }
         }
 
+        public async Task<ReclamoPremio> ConsultarReclamoPremioMongoAsync(Guid idReclamoPremio)
+        {
+            try
+            {
+                var resul = await _reclamoPremioMongoRepository.ConsultarReclamoPremioMongo(idReclamoPremio);
+                return resul;
+            }
+            catch (System.Exception ex)
+            {
+                throw new MongoRepositoryException($"Error al intentar obtener el reclamo del premio en MongoDB {ex.Message}", ex);
+            }
+
+        }
+
         public async Task<List<Reclamo>> ConsultarReclamosMongoAsync()
         {
             try
@@ -95,6 +109,19 @@ namespace Application.Services
             catch (System.Exception ex)
             {
                 throw new MongoRepositoryException($"Error al intentar obtener los reclamos del subastador {ex.Message}", ex);
+            }
+        }
+
+        public async Task<List<ReclamoPremio>> ConsultarReclamosPremiosUsuarioMongoAsync(Guid idUsuario)
+        {
+            try
+            {
+                var resul = await _reclamoPremioMongoRepository.ConsultarReclamosPremiosUsuarioMongo(idUsuario);
+                return resul;
+            }
+            catch (System.Exception ex)
+            {
+                throw new MongoRepositoryException($"Error al intentar obtener los reclamos de premios del usuario {ex.Message}", ex);
             }
         }
 

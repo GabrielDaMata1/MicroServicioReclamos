@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\entities\\reclamopremio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\reclamopremio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44C617B3-B39D-4395-92A0-6C4CCD377425}|MicroservicioReclamos\\MicroservicioReclamos.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\microservicioreclamos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44C617B3-B39D-4395-92A0-6C4CCD377425}|MicroservicioReclamos\\MicroservicioReclamos.csproj|solutionrelative:microservicioreclamos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\handler\\confirmarentregapremiohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\handler\\confirmarentregapremiohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44C617B3-B39D-4395-92A0-6C4CCD377425}|MicroservicioReclamos\\MicroservicioReclamos.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\microservicioreclamos\\controllers\\reclamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44C617B3-B39D-4395-92A0-6C4CCD377425}|MicroservicioReclamos\\MicroservicioReclamos.csproj|solutionrelative:microservicioreclamos\\controllers\\reclamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\infrastructure\\consumer\\reclamopremioregistradoconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\consumer\\reclamopremioregistradoconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\events\\entregapremioconfirmadaevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\events\\entregapremioconfirmadaevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\events\\reclamopremioregistradoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\events\\reclamopremioregistradoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\handler\\registrarreclamohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\handler\\registrarreclamohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\command\\confirmarentregapremiocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\command\\confirmarentregapremiocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\handler\\consultarreclamopremiousuariohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\handler\\consultarreclamopremiousuariohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\services\\subastaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\services\\subastaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\services\\reclamoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,52 +43,92 @@
       "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ireclamoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\infrastructure\\consumer\\reclamoregistradoconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\consumer\\reclamoregistradoconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\interfaces\\ireclamopremiomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ireclamopremiomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\handler\\registrarreclamopremiohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\handler\\registrarreclamopremiohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\infrastructure\\repositories\\mongodb\\reclamopremiomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\mongodb\\reclamopremiomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\events\\reclamopremioregistradoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\events\\reclamopremioregistradoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\events\\reclamoregistradoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\events\\reclamoregistradoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\factory\\reclamopremiofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\factory\\reclamopremiofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\command\\registrarreclamopremiocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\command\\registrarreclamopremiocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\handler\\registrarreclamohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\handler\\registrarreclamohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\factory\\reclamofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\factory\\reclamofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\infrastructure\\repositories\\mongodb\\reclamomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\mongodb\\reclamomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\command\\registrarreclamocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\command\\registrarreclamocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\entities\\reclamopremio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\reclamopremio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\factory\\reclamopremiofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\factory\\reclamopremiofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\handler\\registrarreclamopremiohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\handler\\registrarreclamopremiohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\dtos\\registrarreclamopremiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\dtos\\registrarreclamopremiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\dtos\\reclamoresoluciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\dtos\\reclamoresoluciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\dtos\\historialreclamosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\dtos\\historialreclamosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\infrastructure\\repositories\\mongodb\\reclamopremiomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\mongodb\\reclamopremiomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\dtos\\historialreclamospremiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\dtos\\historialreclamospremiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\handler\\consultarreclamosporsubastadorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\handler\\consultarreclamosporsubastadorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\query\\consultarreclamospremiosusuarioquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\query\\consultarreclamospremiosusuarioquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\command\\registrarreclamopremiocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\command\\registrarreclamopremiocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\dtos\\subastadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\dtos\\subastadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\query\\consultarreclamosporsubastadorquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\query\\consultarreclamosporsubastadorquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\infrastructure\\repositories\\mongodb\\resolucionreclamomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\mongodb\\resolucionreclamomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C617B3-B39D-4395-92A0-6C4CCD377425}|MicroservicioReclamos\\MicroservicioReclamos.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\microservicioreclamos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C617B3-B39D-4395-92A0-6C4CCD377425}|MicroservicioReclamos\\MicroservicioReclamos.csproj|solutionrelative:microservicioreclamos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\infrastructure\\consumer\\reclamopremioregistradoconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\consumer\\reclamopremioregistradoconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\infrastructure\\consumer\\reclamoregistradoconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\consumer\\reclamoregistradoconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\events\\reclamoregistradoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\events\\reclamoregistradoevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\factory\\reclamofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\factory\\reclamofactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\dtos\\reclamoresoluciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\dtos\\reclamoresoluciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\infrastructure\\repositories\\postgresql\\reclamopremiopostgresqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -105,14 +161,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\infrastructure\\mappers\\reclamomongomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\mappers\\reclamomongomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\infrastructure\\repositories\\mongodb\\reclamomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\mongodb\\reclamomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\interfaces\\ireclamopremiomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ireclamopremiomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\interfaces\\ireclamopremiopostgresqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -151,20 +199,12 @@
       "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\value_object\\direccionenviopremiovo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\infrastructure\\repositories\\mongodb\\resolucionreclamomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\mongodb\\resolucionreclamomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\handler\\consultarreclamosresolucionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\handler\\consultarreclamosresolucionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\query\\consultarreclamosresolucionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\query\\consultarreclamosresolucionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\infrastructure\\repositories\\postgresql\\resolucionreclamopostgresqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\postgresql\\resolucionreclamopostgresqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\handler\\registrarresolucionreclamohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -195,24 +235,12 @@
       "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\handler\\consultarreclamoshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\query\\consultarreclamosporsubastadorquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\query\\consultarreclamosporsubastadorquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\query\\consultarreclamoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\query\\consultarreclamoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\handler\\consultarreclamohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\handler\\consultarreclamohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\services\\subastaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\services\\subastaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\dtos\\subastadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\dtos\\subastadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\exception\\falloalregistrarreclamoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -234,17 +262,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 208,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "IReclamoService.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IReclamoService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IReclamoService.cs",
               "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IReclamoService.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IReclamoService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAswB4AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwCYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T19:14:35.621Z",
               "IsPinned": true,
@@ -252,26 +280,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ResolucionReclamoPostgreSQLRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\PostgreSQL\\ResolucionReclamoPostgreSQLRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\PostgreSQL\\ResolucionReclamoPostgreSQLRepository.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\PostgreSQL\\ResolucionReclamoPostgreSQLRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\PostgreSQL\\ResolucionReclamoPostgreSQLRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T21:06:46.486Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ReclamoService.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Services\\ReclamoService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\ReclamoService.cs",
               "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Services\\ReclamoService.cs",
               "RelativeToolTip": "Application\\Services\\ReclamoService.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAqwIsAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAYwFMAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T19:17:02.721Z",
               "IsPinned": true,
@@ -279,13 +294,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 25,
               "Title": "ResolucionReclamoMongoRepository.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\MongoDB\\ResolucionReclamoMongoRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\MongoDB\\ResolucionReclamoMongoRepository.cs",
               "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\MongoDB\\ResolucionReclamoMongoRepository.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\MongoDB\\ResolucionReclamoMongoRepository.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAkwCsAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wCsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T22:23:51.523Z",
               "IsPinned": true,
@@ -293,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 31,
               "Title": "ReclamoResolucionDTO.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\DTOs\\ReclamoResolucionDTO.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\ReclamoResolucionDTO.cs",
@@ -302,12 +317,11 @@
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwBAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T22:41:44.596Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 49,
               "Title": "ConsultarReclamosResolucionHandler.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\ConsultarReclamosResolucionHandler.cs",
               "RelativeDocumentMoniker": "Application\\Handler\\ConsultarReclamosResolucionHandler.cs",
@@ -320,13 +334,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 11,
               "Title": "ReclamoPremioMongoRepository.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\MongoDB\\ReclamoPremioMongoRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\MongoDB\\ReclamoPremioMongoRepository.cs",
               "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\MongoDB\\ReclamoPremioMongoRepository.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\MongoDB\\ReclamoPremioMongoRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBkAAABiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T23:34:48.355Z",
               "IsPinned": true,
@@ -334,418 +348,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReclamoPremioRegistradoConsumer.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Consumer\\ReclamoPremioRegistradoConsumer.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Consumer\\ReclamoPremioRegistradoConsumer.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Consumer\\ReclamoPremioRegistradoConsumer.cs",
-              "RelativeToolTip": "Infrastructure\\Consumer\\ReclamoPremioRegistradoConsumer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAABzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T00:10:13.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegistrarReclamoPremioHandler.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\RegistrarReclamoPremioHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Handler\\RegistrarReclamoPremioHandler.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\RegistrarReclamoPremioHandler.cs",
-              "RelativeToolTip": "Application\\Handler\\RegistrarReclamoPremioHandler.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwD0AAAB0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T00:05:42.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ReclamoRegistradoConsumer.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Consumer\\ReclamoRegistradoConsumer.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Consumer\\ReclamoRegistradoConsumer.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Consumer\\ReclamoRegistradoConsumer.cs",
-              "RelativeToolTip": "Infrastructure\\Consumer\\ReclamoRegistradoConsumer.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T21:44:20.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ReclamoController.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\MicroservicioReclamos\\Controllers\\ReclamoController.cs",
-              "RelativeDocumentMoniker": "MicroservicioReclamos\\Controllers\\ReclamoController.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\MicroservicioReclamos\\Controllers\\ReclamoController.cs",
-              "RelativeToolTip": "MicroservicioReclamos\\Controllers\\ReclamoController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAqwFAAAABRAAAAAAAAAA==",
+              "Title": "EntregaPremioConfirmadaEvent.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Events\\EntregaPremioConfirmadaEvent.cs",
+              "RelativeDocumentMoniker": "Domain\\Events\\EntregaPremioConfirmadaEvent.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Events\\EntregaPremioConfirmadaEvent.cs",
+              "RelativeToolTip": "Domain\\Events\\EntregaPremioConfirmadaEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T19:33:20.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\MicroservicioReclamos\\Program.cs",
-              "RelativeDocumentMoniker": "MicroservicioReclamos\\Program.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\MicroservicioReclamos\\Program.cs",
-              "RelativeToolTip": "MicroservicioReclamos\\Program.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAADoAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T19:32:02.197Z",
+              "WhenOpened": "2025-07-05T01:08:11.188Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ReclamoPremio.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Entities\\ReclamoPremio.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\ReclamoPremio.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Entities\\ReclamoPremio.cs",
-              "RelativeToolTip": "Domain\\Entities\\ReclamoPremio.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAIwAwAAAAAAAAAAAAAAA==",
+              "Title": "ConfirmarEntregaPremioHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\ConfirmarEntregaPremioHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handler\\ConfirmarEntregaPremioHandler.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\ConfirmarEntregaPremioHandler.cs",
+              "RelativeToolTip": "Application\\Handler\\ConfirmarEntregaPremioHandler.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:12:13.567Z",
+              "WhenOpened": "2025-07-05T01:03:50.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReclamoPremioRegistradoEvent.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Events\\ReclamoPremioRegistradoEvent.cs",
-              "RelativeDocumentMoniker": "Domain\\Events\\ReclamoPremioRegistradoEvent.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Events\\ReclamoPremioRegistradoEvent.cs",
-              "RelativeToolTip": "Domain\\Events\\ReclamoPremioRegistradoEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ConfirmarEntregaPremioCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Command\\ConfirmarEntregaPremioCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Command\\ConfirmarEntregaPremioCommand.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Command\\ConfirmarEntregaPremioCommand.cs",
+              "RelativeToolTip": "Application\\Command\\ConfirmarEntregaPremioCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T00:08:54.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ReclamoPremioFactory.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Factory\\ReclamoPremioFactory.cs",
-              "RelativeDocumentMoniker": "Domain\\Factory\\ReclamoPremioFactory.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Factory\\ReclamoPremioFactory.cs",
-              "RelativeToolTip": "Domain\\Factory\\ReclamoPremioFactory.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBYAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T00:01:59.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RegistrarReclamoPremioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\DTOs\\RegistrarReclamoPremioDTO.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\RegistrarReclamoPremioDTO.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\DTOs\\RegistrarReclamoPremioDTO.cs",
-              "RelativeToolTip": "Application\\DTOs\\RegistrarReclamoPremioDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:59:18.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RegistrarReclamoPremioCommand.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Command\\RegistrarReclamoPremioCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Command\\RegistrarReclamoPremioCommand.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Command\\RegistrarReclamoPremioCommand.cs",
-              "RelativeToolTip": "Application\\Command\\RegistrarReclamoPremioCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:59:09.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ReclamoRegistradoEvent.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Events\\ReclamoRegistradoEvent.cs",
-              "RelativeDocumentMoniker": "Domain\\Events\\ReclamoRegistradoEvent.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Events\\ReclamoRegistradoEvent.cs",
-              "RelativeToolTip": "Domain\\Events\\ReclamoRegistradoEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T21:27:28.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RegistrarReclamoHandler.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\RegistrarReclamoHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Handler\\RegistrarReclamoHandler.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\RegistrarReclamoHandler.cs",
-              "RelativeToolTip": "Application\\Handler\\RegistrarReclamoHandler.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAmwD8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T19:22:24.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ReclamoPremioPostgreSQLRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\PostgreSQL\\ReclamoPremioPostgreSQLRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\PostgreSQL\\ReclamoPremioPostgreSQLRepository.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\PostgreSQL\\ReclamoPremioPostgreSQLRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\PostgreSQL\\ReclamoPremioPostgreSQLRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:41:37.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ReclamoFactory.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Factory\\ReclamoFactory.cs",
-              "RelativeDocumentMoniker": "Domain\\Factory\\ReclamoFactory.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Factory\\ReclamoFactory.cs",
-              "RelativeToolTip": "Domain\\Factory\\ReclamoFactory.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAmwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T18:56:12.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ReclamoPremioPostgreSQLMapper.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Mappers\\ReclamoPremioPostgreSQLMapper.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Mappers\\ReclamoPremioPostgreSQLMapper.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Mappers\\ReclamoPremioPostgreSQLMapper.cs",
-              "RelativeToolTip": "Infrastructure\\Mappers\\ReclamoPremioPostgreSQLMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:39:58.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RegistrarReclamoCommand.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Command\\RegistrarReclamoCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Command\\RegistrarReclamoCommand.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Command\\RegistrarReclamoCommand.cs",
-              "RelativeToolTip": "Application\\Command\\RegistrarReclamoCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T19:19:10.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ReclamoPremioMongoMapper.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Mappers\\ReclamoPremioMongoMapper.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Mappers\\ReclamoPremioMongoMapper.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Mappers\\ReclamoPremioMongoMapper.cs",
-              "RelativeToolTip": "Infrastructure\\Mappers\\ReclamoPremioMongoMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:38:04.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ReclamoPremioMongo.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Models\\MongoDB\\ReclamoPremioMongo.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Models\\MongoDB\\ReclamoPremioMongo.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Models\\MongoDB\\ReclamoPremioMongo.cs",
-              "RelativeToolTip": "Infrastructure\\Models\\MongoDB\\ReclamoPremioMongo.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:23:59.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ReclamoPostgreSQL.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Models\\PostgreSQL\\ReclamoPostgreSQL.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Models\\PostgreSQL\\ReclamoPostgreSQL.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Models\\PostgreSQL\\ReclamoPostgreSQL.cs",
-              "RelativeToolTip": "Infrastructure\\Models\\PostgreSQL\\ReclamoPostgreSQL.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:26:53.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ReclamoPremioPostgreSQL.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Models\\PostgreSQL\\ReclamoPremioPostgreSQL.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Models\\PostgreSQL\\ReclamoPremioPostgreSQL.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Models\\PostgreSQL\\ReclamoPremioPostgreSQL.cs",
-              "RelativeToolTip": "Infrastructure\\Models\\PostgreSQL\\ReclamoPremioPostgreSQL.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:26:38.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ReclamoPostgreSQLRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\PostgreSQL\\ReclamoPostgreSQLRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\PostgreSQL\\ReclamoPostgreSQLRepository.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\PostgreSQL\\ReclamoPostgreSQLRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\PostgreSQL\\ReclamoPostgreSQLRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:41:51.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ReclamoMongoMapper.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Mappers\\ReclamoMongoMapper.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Mappers\\ReclamoMongoMapper.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Mappers\\ReclamoMongoMapper.cs",
-              "RelativeToolTip": "Infrastructure\\Mappers\\ReclamoMongoMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:38:08.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ReclamoMongoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\MongoDB\\ReclamoMongoRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\MongoDB\\ReclamoMongoRepository.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\MongoDB\\ReclamoMongoRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\MongoDB\\ReclamoMongoRepository.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:34:50.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IReclamoPremioMongoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IReclamoPremioMongoRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IReclamoPremioMongoRepository.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IReclamoPremioMongoRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IReclamoPremioMongoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:32:27.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IReclamoPremioPostgreSQLRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IReclamoPremioPostgreSQLRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IReclamoPremioPostgreSQLRepository.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IReclamoPremioPostgreSQLRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IReclamoPremioPostgreSQLRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:31:46.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "SubastaDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Persistance\\SubastaDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Persistance\\SubastaDbContext.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Persistance\\SubastaDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\Persistance\\SubastaDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBEAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:27:46.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ReclamoMongo.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Models\\MongoDB\\ReclamoMongo.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Models\\MongoDB\\ReclamoMongo.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Models\\MongoDB\\ReclamoMongo.cs",
-              "RelativeToolTip": "Infrastructure\\Models\\MongoDB\\ReclamoMongo.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:24:18.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IReclamoPostgreSQLRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IReclamoPostgreSQLRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IReclamoPostgreSQLRepository.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IReclamoPostgreSQLRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IReclamoPostgreSQLRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T21:56:47.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "FechaReclamoPremioVO.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Value_Object\\FechaReclamoPremioVO.cs",
-              "RelativeDocumentMoniker": "Domain\\Value_Object\\FechaReclamoPremioVO.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Value_Object\\FechaReclamoPremioVO.cs",
-              "RelativeToolTip": "Domain\\Value_Object\\FechaReclamoPremioVO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:20:52.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "MetodoEntregaPremioVO.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Value_Object\\MetodoEntregaPremioVO.cs",
-              "RelativeDocumentMoniker": "Domain\\Value_Object\\MetodoEntregaPremioVO.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Value_Object\\MetodoEntregaPremioVO.cs",
-              "RelativeToolTip": "Domain\\Value_Object\\MetodoEntregaPremioVO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:19:24.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "DireccionEnvioPremioVO.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Value_Object\\DireccionEnvioPremioVO.cs",
-              "RelativeDocumentMoniker": "Domain\\Value_Object\\DireccionEnvioPremioVO.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Value_Object\\DireccionEnvioPremioVO.cs",
-              "RelativeToolTip": "Domain\\Value_Object\\DireccionEnvioPremioVO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:18:21.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ResolucionReclamo.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Entities\\ResolucionReclamo.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\ResolucionReclamo.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Entities\\ResolucionReclamo.cs",
-              "RelativeToolTip": "Domain\\Entities\\ResolucionReclamo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T23:12:14.746Z",
+              "WhenOpened": "2025-07-05T00:52:04.261Z",
               "EditorCaption": ""
             },
             {
@@ -766,7 +403,506 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistrarReclamoHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\RegistrarReclamoHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handler\\RegistrarReclamoHandler.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\RegistrarReclamoHandler.cs",
+              "RelativeToolTip": "Application\\Handler\\RegistrarReclamoHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T19:22:24.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReclamoPremioRegistradoEvent.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Events\\ReclamoPremioRegistradoEvent.cs",
+              "RelativeDocumentMoniker": "Domain\\Events\\ReclamoPremioRegistradoEvent.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Events\\ReclamoPremioRegistradoEvent.cs",
+              "RelativeToolTip": "Domain\\Events\\ReclamoPremioRegistradoEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T00:08:54.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReclamoController.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\MicroservicioReclamos\\Controllers\\ReclamoController.cs",
+              "RelativeDocumentMoniker": "MicroservicioReclamos\\Controllers\\ReclamoController.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\MicroservicioReclamos\\Controllers\\ReclamoController.cs",
+              "RelativeToolTip": "MicroservicioReclamos\\Controllers\\ReclamoController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAkwGQAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T19:33:20.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConsultarReclamoPremioUsuarioHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\ConsultarReclamoPremioUsuarioHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handler\\ConsultarReclamoPremioUsuarioHandler.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\ConsultarReclamoPremioUsuarioHandler.cs",
+              "RelativeToolTip": "Application\\Handler\\ConsultarReclamoPremioUsuarioHandler.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T00:32:52.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReclamoMongoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\MongoDB\\ReclamoMongoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\MongoDB\\ReclamoMongoRepository.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\MongoDB\\ReclamoMongoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\MongoDB\\ReclamoMongoRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDUAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:34:50.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegistrarReclamoCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Command\\RegistrarReclamoCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Command\\RegistrarReclamoCommand.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Command\\RegistrarReclamoCommand.cs",
+              "RelativeToolTip": "Application\\Command\\RegistrarReclamoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T19:19:10.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IReclamoPremioMongoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IReclamoPremioMongoRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IReclamoPremioMongoRepository.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IReclamoPremioMongoRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IReclamoPremioMongoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:32:27.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SubastaService.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Services\\SubastaService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\SubastaService.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Services\\SubastaService.cs",
+              "RelativeToolTip": "Application\\Services\\SubastaService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T19:09:44.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReclamoPremioFactory.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Factory\\ReclamoPremioFactory.cs",
+              "RelativeDocumentMoniker": "Domain\\Factory\\ReclamoPremioFactory.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Factory\\ReclamoPremioFactory.cs",
+              "RelativeToolTip": "Domain\\Factory\\ReclamoPremioFactory.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T00:01:59.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegistrarReclamoPremioHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\RegistrarReclamoPremioHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handler\\RegistrarReclamoPremioHandler.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\RegistrarReclamoPremioHandler.cs",
+              "RelativeToolTip": "Application\\Handler\\RegistrarReclamoPremioHandler.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwD0AAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T00:05:42.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegistrarReclamoPremioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\DTOs\\RegistrarReclamoPremioDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\RegistrarReclamoPremioDTO.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\DTOs\\RegistrarReclamoPremioDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\RegistrarReclamoPremioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:59:18.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReclamoPremio.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Entities\\ReclamoPremio.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ReclamoPremio.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Entities\\ReclamoPremio.cs",
+              "RelativeToolTip": "Domain\\Entities\\ReclamoPremio.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwB4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:12:13.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HistorialReclamosDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\DTOs\\HistorialReclamosDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\HistorialReclamosDTO.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\DTOs\\HistorialReclamosDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\HistorialReclamosDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T00:28:40.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HistorialReclamosPremioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\DTOs\\HistorialReclamosPremioDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\HistorialReclamosPremioDTO.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\DTOs\\HistorialReclamosPremioDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\HistorialReclamosPremioDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T00:28:24.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ConsultarReclamosPorSubastadorHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\ConsultarReclamosPorSubastadorHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handler\\ConsultarReclamosPorSubastadorHandler.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\ConsultarReclamosPorSubastadorHandler.cs",
+              "RelativeToolTip": "Application\\Handler\\ConsultarReclamosPorSubastadorHandler.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwE0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T00:33:04.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ConsultarReclamosPremiosUsuarioQuery.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Query\\ConsultarReclamosPremiosUsuarioQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Query\\ConsultarReclamosPremiosUsuarioQuery.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Query\\ConsultarReclamosPremiosUsuarioQuery.cs",
+              "RelativeToolTip": "Application\\Query\\ConsultarReclamosPremiosUsuarioQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T00:27:42.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SubastaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\DTOs\\SubastaDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\SubastaDTO.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\DTOs\\SubastaDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\SubastaDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T19:38:39.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegistrarReclamoPremioCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Command\\RegistrarReclamoPremioCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Command\\RegistrarReclamoPremioCommand.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Command\\RegistrarReclamoPremioCommand.cs",
+              "RelativeToolTip": "Application\\Command\\RegistrarReclamoPremioCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:59:09.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\MicroservicioReclamos\\Program.cs",
+              "RelativeDocumentMoniker": "MicroservicioReclamos\\Program.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\MicroservicioReclamos\\Program.cs",
+              "RelativeToolTip": "MicroservicioReclamos\\Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAADoAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T19:32:02.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ConsultarReclamosPorSubastadorQuery.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Query\\ConsultarReclamosPorSubastadorQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Query\\ConsultarReclamosPorSubastadorQuery.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Query\\ConsultarReclamosPorSubastadorQuery.cs",
+              "RelativeToolTip": "Application\\Query\\ConsultarReclamosPorSubastadorQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T19:19:04.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ReclamoRegistradoConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Consumer\\ReclamoRegistradoConsumer.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Consumer\\ReclamoRegistradoConsumer.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Consumer\\ReclamoRegistradoConsumer.cs",
+              "RelativeToolTip": "Infrastructure\\Consumer\\ReclamoRegistradoConsumer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T21:44:20.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ReclamoPremioRegistradoConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Consumer\\ReclamoPremioRegistradoConsumer.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Consumer\\ReclamoPremioRegistradoConsumer.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Consumer\\ReclamoPremioRegistradoConsumer.cs",
+              "RelativeToolTip": "Infrastructure\\Consumer\\ReclamoPremioRegistradoConsumer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T00:10:13.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ReclamoRegistradoEvent.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Events\\ReclamoRegistradoEvent.cs",
+              "RelativeDocumentMoniker": "Domain\\Events\\ReclamoRegistradoEvent.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Events\\ReclamoRegistradoEvent.cs",
+              "RelativeToolTip": "Domain\\Events\\ReclamoRegistradoEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T21:27:28.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ReclamoPremioPostgreSQLRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\PostgreSQL\\ReclamoPremioPostgreSQLRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\PostgreSQL\\ReclamoPremioPostgreSQLRepository.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\PostgreSQL\\ReclamoPremioPostgreSQLRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\PostgreSQL\\ReclamoPremioPostgreSQLRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:41:37.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ReclamoFactory.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Factory\\ReclamoFactory.cs",
+              "RelativeDocumentMoniker": "Domain\\Factory\\ReclamoFactory.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Factory\\ReclamoFactory.cs",
+              "RelativeToolTip": "Domain\\Factory\\ReclamoFactory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T18:56:12.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ReclamoPremioPostgreSQLMapper.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Mappers\\ReclamoPremioPostgreSQLMapper.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Mappers\\ReclamoPremioPostgreSQLMapper.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Mappers\\ReclamoPremioPostgreSQLMapper.cs",
+              "RelativeToolTip": "Infrastructure\\Mappers\\ReclamoPremioPostgreSQLMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:39:58.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ReclamoPremioMongoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Mappers\\ReclamoPremioMongoMapper.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Mappers\\ReclamoPremioMongoMapper.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Mappers\\ReclamoPremioMongoMapper.cs",
+              "RelativeToolTip": "Infrastructure\\Mappers\\ReclamoPremioMongoMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:38:04.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ReclamoPremioMongo.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Models\\MongoDB\\ReclamoPremioMongo.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Models\\MongoDB\\ReclamoPremioMongo.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Models\\MongoDB\\ReclamoPremioMongo.cs",
+              "RelativeToolTip": "Infrastructure\\Models\\MongoDB\\ReclamoPremioMongo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:23:59.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ReclamoPostgreSQL.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Models\\PostgreSQL\\ReclamoPostgreSQL.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Models\\PostgreSQL\\ReclamoPostgreSQL.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Models\\PostgreSQL\\ReclamoPostgreSQL.cs",
+              "RelativeToolTip": "Infrastructure\\Models\\PostgreSQL\\ReclamoPostgreSQL.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:26:53.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ReclamoPremioPostgreSQL.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Models\\PostgreSQL\\ReclamoPremioPostgreSQL.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Models\\PostgreSQL\\ReclamoPremioPostgreSQL.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Models\\PostgreSQL\\ReclamoPremioPostgreSQL.cs",
+              "RelativeToolTip": "Infrastructure\\Models\\PostgreSQL\\ReclamoPremioPostgreSQL.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:26:38.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ReclamoPostgreSQLRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\PostgreSQL\\ReclamoPostgreSQLRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\PostgreSQL\\ReclamoPostgreSQLRepository.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\PostgreSQL\\ReclamoPostgreSQLRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\PostgreSQL\\ReclamoPostgreSQLRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:41:51.749Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 39,
+              "Title": "ReclamoMongoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Mappers\\ReclamoMongoMapper.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Mappers\\ReclamoMongoMapper.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Mappers\\ReclamoMongoMapper.cs",
+              "RelativeToolTip": "Infrastructure\\Mappers\\ReclamoMongoMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:38:08.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IReclamoPremioPostgreSQLRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IReclamoPremioPostgreSQLRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IReclamoPremioPostgreSQLRepository.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IReclamoPremioPostgreSQLRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IReclamoPremioPostgreSQLRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:31:46.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SubastaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Persistance\\SubastaDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistance\\SubastaDbContext.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Persistance\\SubastaDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Persistance\\SubastaDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:27:46.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ReclamoMongo.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Models\\MongoDB\\ReclamoMongo.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Models\\MongoDB\\ReclamoMongo.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Models\\MongoDB\\ReclamoMongo.cs",
+              "RelativeToolTip": "Infrastructure\\Models\\MongoDB\\ReclamoMongo.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:24:18.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IReclamoPostgreSQLRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IReclamoPostgreSQLRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IReclamoPostgreSQLRepository.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IReclamoPostgreSQLRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IReclamoPostgreSQLRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T21:56:47.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "FechaReclamoPremioVO.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Value_Object\\FechaReclamoPremioVO.cs",
+              "RelativeDocumentMoniker": "Domain\\Value_Object\\FechaReclamoPremioVO.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Value_Object\\FechaReclamoPremioVO.cs",
+              "RelativeToolTip": "Domain\\Value_Object\\FechaReclamoPremioVO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:20:52.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "MetodoEntregaPremioVO.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Value_Object\\MetodoEntregaPremioVO.cs",
+              "RelativeDocumentMoniker": "Domain\\Value_Object\\MetodoEntregaPremioVO.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Value_Object\\MetodoEntregaPremioVO.cs",
+              "RelativeToolTip": "Domain\\Value_Object\\MetodoEntregaPremioVO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:19:24.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "DireccionEnvioPremioVO.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Value_Object\\DireccionEnvioPremioVO.cs",
+              "RelativeDocumentMoniker": "Domain\\Value_Object\\DireccionEnvioPremioVO.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Value_Object\\DireccionEnvioPremioVO.cs",
+              "RelativeToolTip": "Domain\\Value_Object\\DireccionEnvioPremioVO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:18:21.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ResolucionReclamo.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Entities\\ResolucionReclamo.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ResolucionReclamo.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Entities\\ResolucionReclamo.cs",
+              "RelativeToolTip": "Domain\\Entities\\ResolucionReclamo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:12:14.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
               "Title": "ConsultarReclamosResolucionQuery.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Query\\ConsultarReclamosResolucionQuery.cs",
               "RelativeDocumentMoniker": "Application\\Query\\ConsultarReclamosResolucionQuery.cs",
@@ -778,7 +914,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 45,
               "Title": "Reclamo.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Entities\\Reclamo.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Reclamo.cs",
@@ -786,12 +922,11 @@
               "RelativeToolTip": "Domain\\Entities\\Reclamo.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAswCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T18:56:43.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T18:56:43.112Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 51,
               "Title": "RegistrarResolucionReclamoHandler.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\RegistrarResolucionReclamoHandler.cs",
               "RelativeDocumentMoniker": "Application\\Handler\\RegistrarResolucionReclamoHandler.cs",
@@ -803,7 +938,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 52,
               "Title": "ResolucionReclamoRegistradaConsumer.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Consumer\\ResolucionReclamoRegistradaConsumer.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Consumer\\ResolucionReclamoRegistradaConsumer.cs",
@@ -815,7 +950,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 53,
               "Title": "RegistrarResolucionReclamoDTO.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\DTOs\\RegistrarResolucionReclamoDTO.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\RegistrarResolucionReclamoDTO.cs",
@@ -827,7 +962,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 54,
               "Title": "IReclamoMongoRepository.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IReclamoMongoRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IReclamoMongoRepository.cs",
@@ -839,7 +974,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 55,
               "Title": "RegistrarResolucionReclamoCommand.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Command\\RegistrarResolucionReclamoCommand.cs",
               "RelativeDocumentMoniker": "Application\\Command\\RegistrarResolucionReclamoCommand.cs",
@@ -851,7 +986,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 56,
               "Title": "ConsultarReclamosQuery.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Query\\ConsultarReclamosQuery.cs",
               "RelativeDocumentMoniker": "Application\\Query\\ConsultarReclamosQuery.cs",
@@ -863,7 +998,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 57,
               "Title": "ConsultarReclamosHandler.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\ConsultarReclamosHandler.cs",
               "RelativeDocumentMoniker": "Application\\Handler\\ConsultarReclamosHandler.cs",
@@ -875,7 +1010,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 59,
               "Title": "ConsultarReclamoHandler.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\ConsultarReclamoHandler.cs",
               "RelativeDocumentMoniker": "Application\\Handler\\ConsultarReclamoHandler.cs",
@@ -887,7 +1022,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 58,
               "Title": "ConsultarReclamoQuery.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Query\\ConsultarReclamoQuery.cs",
               "RelativeDocumentMoniker": "Application\\Query\\ConsultarReclamoQuery.cs",
@@ -899,43 +1034,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "ConsultarReclamosPorSubastadorQuery.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Query\\ConsultarReclamosPorSubastadorQuery.cs",
-              "RelativeDocumentMoniker": "Application\\Query\\ConsultarReclamosPorSubastadorQuery.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Query\\ConsultarReclamosPorSubastadorQuery.cs",
-              "RelativeToolTip": "Application\\Query\\ConsultarReclamosPorSubastadorQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T19:19:04.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "SubastaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\DTOs\\SubastaDTO.cs",
-              "RelativeDocumentMoniker": "Application\\DTOs\\SubastaDTO.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\DTOs\\SubastaDTO.cs",
-              "RelativeToolTip": "Application\\DTOs\\SubastaDTO.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T19:38:39.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "SubastaService.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Services\\SubastaService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\SubastaService.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Services\\SubastaService.cs",
-              "RelativeToolTip": "Application\\Services\\SubastaService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T19:09:44.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 60,
               "Title": "FalloAlRegistrarReclamoException.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Exception\\FalloAlRegistrarReclamoException.cs",
               "RelativeDocumentMoniker": "Application\\Exception\\FalloAlRegistrarReclamoException.cs",
@@ -947,7 +1046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 61,
               "Title": "FalloAlObtenerReclamoException.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Exception\\FalloAlObtenerReclamoException.cs",
               "RelativeDocumentMoniker": "Application\\Exception\\FalloAlObtenerReclamoException.cs",
@@ -959,7 +1058,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 62,
               "Title": "Subasta.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Entities\\Subasta.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Subasta.cs",
