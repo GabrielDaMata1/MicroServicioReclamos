@@ -17,16 +17,20 @@ namespace Application.Services
         private readonly IReclamoPostgreSQLRepository _reclamoPostgreSQLRepository;
         private readonly IResolucionReclamoMongoRepository _resolucionReclamoMongoRepository;
         private readonly IResolucionReclamoPostgreSQLRepository _resolucionReclamoPostgreSQLRepository;
+        private readonly IReclamoPremioMongoRepository _reclamoPremioMongoRepository;
+        private readonly IReclamoPremioPostgreSQLRepository _reclamoPremioPostgreSQLRepository;
 
 
-        public ReclamoService(IReclamoMongoRepository reclamoMongoRepository, IReclamoPostgreSQLRepository reclamoPostgreSQLRepository, IResolucionReclamoPostgreSQLRepository resolucionReclamoPostgreSQLRepository, IResolucionReclamoMongoRepository resolucionReclamoMongoRepository)
+        public ReclamoService(IReclamoMongoRepository reclamoMongoRepository, IReclamoPostgreSQLRepository reclamoPostgreSQLRepository, IResolucionReclamoPostgreSQLRepository resolucionReclamoPostgreSQLRepository,
+            IResolucionReclamoMongoRepository resolucionReclamoMongoRepository, IReclamoPremioMongoRepository reclamoPremioMongoRepository, IReclamoPremioPostgreSQLRepository reclamoPremioPostgreSQLRepository)
 
         {
             _reclamoMongoRepository = reclamoMongoRepository;
             _reclamoPostgreSQLRepository = reclamoPostgreSQLRepository;
-            _resolucionReclamoMongoRepository= resolucionReclamoMongoRepository;
+            _resolucionReclamoMongoRepository = resolucionReclamoMongoRepository;
             _resolucionReclamoPostgreSQLRepository = resolucionReclamoPostgreSQLRepository;
-
+            _reclamoPremioMongoRepository = reclamoPremioMongoRepository;
+            _reclamoPremioPostgreSQLRepository = reclamoPremioPostgreSQLRepository;
         }
 
         public async Task<HttpStatusCode> ActualizarEstadoReclamoMongoAsync(Guid idReclamo, string nuevoEstado)
@@ -130,6 +134,32 @@ namespace Application.Services
             catch (System.Exception ex)
             {
                 throw new PostgresRepositoryException($"Error al intentar registrar el reclamo en PostgreSQL {ex.Message}", ex);
+            }
+        }
+
+        public async Task<HttpStatusCode> RegistrarReclamoPremioMongoAsync(ReclamoPremio reclamoPremio)
+        {
+            try
+            {
+                var resul = await _reclamoPremioMongoRepository.RegistrarReclamoPremioAsync(reclamoPremio);
+                return resul;
+            }
+            catch (System.Exception ex)
+            {
+                throw new MongoRepositoryException($"Error al intentar registrar el reclamo del premio en MongoDB {ex.Message}", ex);
+            }
+        }
+
+        public async Task<Guid> RegistrarReclamoPremioPostgreSQLAsync(ReclamoPremio reclamoPremio)
+        {
+            try
+            {
+                var resul = await _reclamoPremioPostgreSQLRepository.RegistrarReclamoPremioAsync(reclamoPremio);
+                return resul;
+            }
+            catch (System.Exception ex)
+            {
+                throw new PostgresRepositoryException($"Error al intentar registrar el reclamo del premio en PostgreSQL {ex.Message}", ex);
             }
         }
 

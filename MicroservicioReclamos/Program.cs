@@ -55,6 +55,8 @@ builder.Services.AddScoped<IReclamoMongoRepository, ReclamoMongoRepository>();
 builder.Services.AddScoped<IResolucionReclamoMongoRepository, ResolucionReclamoMongoRepository>();
 builder.Services.AddScoped<IResolucionReclamoPostgreSQLRepository, ResolucionReclamoPostgreSQLRepository>();
 builder.Services.AddScoped<IReclamoPostgreSQLRepository, ReclamoPostgreSQLRepository>();
+builder.Services.AddScoped<IReclamoPremioMongoRepository, ReclamoPremioMongoRepository>();
+builder.Services.AddScoped<IReclamoPremioPostgreSQLRepository, ReclamoPremioPostgreSQLRepository>();
 builder.Services.AddScoped<IReclamoService, ReclamoService>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 builder.Services.AddScoped<ISubastaService, SubastaService>();
@@ -66,6 +68,7 @@ builder.Services.AddMassTransit(x =>
 
     x.AddConsumer<ReclamoRegistradoConsumer>();
     x.AddConsumer<ResolucionReclamoRegistradaConsumer>();
+    x.AddConsumer<ReclamoPremioRegistradoConsumer>();
 
 
     x.UsingRabbitMq((context, cfg) =>
@@ -87,6 +90,10 @@ builder.Services.AddMassTransit(x =>
             e.ConfigureConsumer<ResolucionReclamoRegistradaConsumer>(context);
         });
 
+        cfg.ReceiveEndpoint("reclamoPremio-registrado-queue", e =>
+        {
+            e.ConfigureConsumer<ReclamoPremioRegistradoConsumer>(context);
+        });
 
     });
 });

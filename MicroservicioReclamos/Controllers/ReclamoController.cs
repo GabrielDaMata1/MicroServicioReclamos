@@ -68,5 +68,17 @@ namespace MicroservicioReclamos.Controllers
             var resultado = await _mediator.Send(new ConsultarReclamosResolucionQuery(correo));
             return Ok(resultado);
         }
+
+        [HttpPost("registroReclamoPremio")]
+        public async Task<IActionResult> RegistrarReclamoPremio([FromBody] RegistrarReclamoPremioDTO reclamoPremioDTO)
+        {
+            var resultado = await _mediator.Send(new RegistrarReclamoPremioCommand(reclamoPremioDTO));
+            if (resultado)
+            {
+                return Ok(new ResultadoDTO { Mensaje = "El reclamo del premio se registró exitosamente.", Exito = true });
+            }
+
+            return BadRequest(new ResultadoDTO { Mensaje = "El reclamo del premio  no pudo ser registrada.", Exito = false });
+        }
     }
 }
