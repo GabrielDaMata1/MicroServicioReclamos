@@ -12,7 +12,7 @@ using MediatR;
 namespace Application.Handler
 {
     /// <summary>
-    /// Clase Handler que se encarga consultar las resoluciones de los reclamos que han sido realizados a un subastador.
+    /// Clase Handler que se encarga consultar las resoluciones de los reclamos que han sido realizados por un usuario.
     /// </summary>
     public class ConsultarReclamosResolucionHandler : IRequestHandler<ConsultarReclamosResolucionQuery, List<ReclamoResolucionDTO>>
     {
@@ -37,12 +37,12 @@ namespace Application.Handler
         }
 
         /// <summary>
-        /// Método que se encarga de procesar la consulta de las resoluciones de los reclamos realizados a un subastador.
+        /// Método que se encarga de procesar la consulta de las resoluciones de los reclamos realizados por un usuario.
         /// </summary>
-        /// <param name="request">Parametro que contiene el correo del subastador quien consulta sus reclamos</param>
+        /// <param name="request">Parametro que contiene el correo del usuario quien consulta sus reclamos</param>
         /// <returns>Retorna una lista de  DTOs con la información detallada de los reclamos y su resolución si las operaciones fueron exitosas.</returns>
         /// <exception cref="UsuarioNoEncontradoException">
-        /// Esta excepcion ocurre si no se pudo obtener el ID del subastador en el Microservicio Usuarios.
+        /// Esta excepcion ocurre si no se pudo obtener el ID del usuario en el Microservicio Usuarios.
         /// </exception>
         /// <exception cref="FalloAlObtenerReclamoException">
         /// Esta excepcion ocurre si ocurre un error al obtener la lista de reclamos en la base de datos o si ocurre un error inesperado.
@@ -53,15 +53,15 @@ namespace Application.Handler
             try
             {
 
-                // Se obtiene el ID del usuario al que le pertenecen los reclamos de premio.
+                // Se obtiene el ID del usuario al que le pertenecen los reclamos.
                 var idUsuario = await _usuarioService.ObtenerUsuarioPorIdAsync(request.correo);
 
                 //En caso de que el ID del usuario retornado por la consulta sea vacío, se lanza la excepción
                 if (idUsuario == Guid.Empty || idUsuario == null)
                     throw new UsuarioNoEncontradoException();
 
-                //Se obtienen los reclamos realizados al subastador
-                var reclamos = await _reclamoService.ConsultarReclamosPorSubastadorMongoAsync(idUsuario);
+                //Se obtienen los reclamos realizados por el usuario
+                var reclamos = await _reclamoService.ConsultarReclamosUsuarioMongoAsync(idUsuario);
 
                 //En caso de que la consulta no retorne ningún valor, se retorna una lista vacía
                 if (reclamos == null || !reclamos.Any())
@@ -75,8 +75,6 @@ namespace Application.Handler
                     //Se obtiene la información de la subasta a la cuál se realizó el reclamo
                     var subasta = await _subastaService.ObtenerSubastaPorGuid(reclamo.IdSubasta);
 
-                    //Se obtiene el correo del usuario que realizó el reclamo
-                    var correoUsuario = await _usuarioService.ObtenerCorreoPorIdAsync(reclamo.IdUsuario);
 
                     //Se obtiene la resolución de cada reclamo
                     var resolucion = await _reclamoService.ConsultarResolucionReclamoMongoAsync(reclamo.Id);
@@ -87,7 +85,7 @@ namespace Application.Handler
                         motivo = reclamo.Motivo.motivoReclamo,
                         urlEvidencia = reclamo.UrlEvidencia.urlEvidenciaReclamo,
                         fecha = reclamo.FechaCreacion.fechaCreacionReclamo,
-                        correo = correoUsuario,
+                        correo = request.correo,
                         estado = reclamo.EstadoReclamo.estadoReclamo,
                         idSubasta = reclamo.IdSubasta,
                         nombreSubasta = subasta.nombreSubasta.Nombre,

@@ -100,5 +100,12 @@ namespace Domain.Interfaces
         /// <returns>Retorna un objeto ReclamoPremio con su detalle si la operación fue exitosa</returns>
         Task<ReclamoPremio> ConsultarReclamoPremioMongoAsync(Guid idReclamoPremio);
 
+        /// <summary>
+        /// Metodo que se encarga de consultar los reclamos realizados por un usuario en la base de datos en MongoDB.
+        /// </summary>
+        /// <param name="idUsuario">Parametro que contiene el id del usuario cuyos reclamos se van a consultar.</param>
+        /// <returns>Retorna una lista de objetos Reclamo con su detalle si la operación fue exitosa</returns>
+        Task<List<Reclamo>> ConsultarReclamosUsuarioMongoAsync(Guid idUsuario);
+
     }
 }
