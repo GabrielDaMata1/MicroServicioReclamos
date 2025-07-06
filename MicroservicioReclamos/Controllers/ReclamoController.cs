@@ -91,11 +91,11 @@ namespace MicroservicioReclamos.Controllers
         }
 
         /// <summary>
-        /// Endpoint encargado de consultar las resoluciones de los reclamos de un subastador.
+        /// Endpoint encargado de consultar las resoluciones de los reclamos de un usuario.
         /// </summary>
-        /// <param name="correo">Parámetro que corresponde al correo del subastador.</param>
+        /// <param name="correo">Parámetro que corresponde al correo del usuario.</param>
         /// <returns>Retorna una lista de DTOs con los detalles de cada reclamo y su resolución.</returns>
-        [HttpGet("obtenerReclamosResolucionSubastador/{correo}")]
+        [HttpGet("obtenerReclamosResolucionUsuario/{correo}")]
         public async Task<IActionResult> ObtenerReclamosResolucionPorSubastador([FromRoute] string correo)
         {
             var resultado = await _mediator.Send(new ConsultarReclamosResolucionQuery(correo));

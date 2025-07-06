@@ -43,5 +43,12 @@ namespace Domain.Interfaces
         /// <param name="nuevoEstado">Parametro que contiene el valor del nuevo estado del reclamo.</param>
         /// <returns>Retorna un estado HTTP si la operación fue exitosa</returns>
         Task<HttpStatusCode> ActualizarEstadoReclamo(Guid idReclamo, string nuevoEstado);
+
+        /// <summary>
+        /// Metodo que se encarga de consultar los reclamos realizados por un usuario en la base de datos en MongoDB.
+        /// </summary>
+        /// <param name="idUsuario">Parametro que contiene el id del usuario cuyos reclamos se van a consultar.</param>
+        /// <returns>Retorna una lista de objetos Reclamo con su detalle si la operación fue exitosa</returns>
+        Task<List<Reclamo>> ConsultarReclamosUsuarioMongo(Guid idUsuario);
     }
 }

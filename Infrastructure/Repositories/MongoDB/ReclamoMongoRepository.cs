@@ -124,5 +124,22 @@ namespace Infrastructure.Repositories.MongoDB
             return HttpStatusCode.OK;
         }
 
+        /// <summary>
+        /// Metodo que se encarga de consultar los reclamos realizados por un usuario en la base de datos en MongoDB.
+        /// </summary>
+        /// <param name="idUsuario">Parametro que contiene el id del usuario cuyos reclamos se van a consultar.</param>
+        /// <returns>Retorna una lista de objetos Reclamo con su detalle si la operación fue exitosa</returns>
+        public async Task<List<Reclamo>> ConsultarReclamosUsuarioMongo(Guid idUsuario)
+        {
+            var filter = Builders<ReclamoMongo>.Filter.Eq(p => p.IdUsuario, idUsuario);
+
+            var reclamosMongo = await _reclamoCollection.Find(filter).ToListAsync();
+
+            var reclamos = reclamosMongo.Select(s => ReclamoFactory.CrearReclamoConId(s.Id, s.IdUsuario, s.IdSubasta,
+                s.Descripcion, s.Motivo, s.UrlEvidencia, s.CreatedAt, s.Estado)).ToList();
+
+            return reclamos;
+        }
+
     }
 }

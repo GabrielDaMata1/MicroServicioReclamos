@@ -198,6 +198,26 @@ namespace Application.Services
                 throw new MongoRepositoryException($"Error al intentar obtener los reclamos de premios del usuario {ex.Message}", ex);
             }
         }
+        /// <summary>
+        /// Metodo que se encarga de consultar los reclamos realizados por un usuario en la base de datos en MongoDB.
+        /// </summary>
+        /// <param name="idUsuario">Parametro que contiene el id del usuario cuyos reclamos se van a consultar.</param>
+        /// <returns>Retorna una lista de objetos Reclamo con su detalle si la operación fue exitosa</returns>
+        /// <exception cref="MongoRepositoryException">
+        /// Esta excepcion ocurre si sucede un problema al consultar los reclamos del usuario en la base de datos.
+        /// </exception>
+        public async Task<List<Reclamo>> ConsultarReclamosUsuarioMongoAsync(Guid idUsuario)
+        {
+            try
+            {
+                var resul = await _reclamoMongoRepository.ConsultarReclamosUsuarioMongo(idUsuario);
+                return resul;
+            }
+            catch (System.Exception ex)
+            {
+                throw new MongoRepositoryException($"Error al intentar obtener los reclamos de premios del usuario {ex.Message}", ex);
+            }
+        }
 
         /// <summary>
         /// Metodo que se encarga de consultar la resolucion de un reclamo en la base de datos en MongoDB.
