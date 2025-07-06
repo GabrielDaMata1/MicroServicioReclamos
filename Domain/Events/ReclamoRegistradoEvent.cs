@@ -7,5 +7,8 @@ using Domain.Entities;
 
 namespace Domain.Events
 {
+    /// <summary>
+    /// Clase Event que es consumida por un consumidor para registrar un reclamo en la base de datos en MongoDB
+    /// </summary>
     public record ReclamoRegistradoEvent(Reclamo reclamo);
 }

@@ -8,17 +8,34 @@ using Domain.Value_Object;
 
 namespace Domain.Entities
 {
+    /// <summary>
+    /// Clase Entity que representa a la entidad ReclamoPremio en el dominio del sistema.
+    /// </summary>
     public class ReclamoPremio
     {
+        /// <summary>
+        /// Atributo que corresponde al ID del reclamo del premio .
+        /// </summary>
         public Guid Id { get; set; }
-
+        /// <summary>
+        /// Atributo que corresponde al ID de la subasta que se le hace un reclamo del premio .
+        /// </summary>
         public Guid IdSubasta { get; set; }
-
+        /// <summary>
+        /// Atributo que corresponde al ID del usuario que hace el reclamo del premio.
+        /// </summary>
         public Guid IdUsuario { get; set; }
-
+        /// <summary>
+        /// Atributo que corresponde a la direccion de envio del reclamo del premio .
+        /// </summary>
         public DireccionEnvioPremioVO DireccionEnvio { get; set; }
+        /// <summary>
+        /// Atributo que corresponde al metodo de entrega del reclamo del premio .
+        /// </summary>
         public MetodoEntregaPremioVO MetodoEntrega { get; set; }
-
+        /// <summary>
+        /// Atributo que corresponde a la fecha del reclamo del reclamo del premio .
+        /// </summary>
         public FechaReclamoPremioVO FechaReclamo { get; set; }
 
         public ReclamoPremio(Guid idUsuario, Guid idSubasta, DireccionEnvioPremioVO direccionEnvio, MetodoEntregaPremioVO metodoEntrega, FechaReclamoPremioVO fechaReclamo)

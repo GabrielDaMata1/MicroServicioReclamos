@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Application.Exception
 {
+    /// <summary>
+    /// Clase Exception que se encarga de manejar los errores producidos al obtener los los reclamos en las bases de datos (PostgreSQL, MongoDB).
+    /// </summary>
     public class FalloAlObtenerReclamoException : System.Exception
     {
         public FalloAlObtenerReclamoException() : base("Ha ocurrido un error al obtener el reclamo.") { }
