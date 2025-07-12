@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicioReclamos", "MicroservicioReclamos\MicroservicioReclamos.csproj", "{44C617B3-B39D-4395-92A0-6C4CCD377425}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{84103686-162D-4F6A-883C-2030C93ABCC4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{AD5C17D2-A553-47A8-911A-04A0368DDF7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMicroservicioReclamos", "TestMicroservicioReclamos\TestMicroservicioReclamos.csproj", "{AAB541F2-9579-49F2-AC8F-EB189D4603DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{AD5C17D2-A553-47A8-911A-04A0368DDF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD5C17D2-A553-47A8-911A-04A0368DDF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD5C17D2-A553-47A8-911A-04A0368DDF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB541F2-9579-49F2-AC8F-EB189D4603DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB541F2-9579-49F2-AC8F-EB189D4603DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB541F2-9579-49F2-AC8F-EB189D4603DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB541F2-9579-49F2-AC8F-EB189D4603DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
