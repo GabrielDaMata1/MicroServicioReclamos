@@ -55,7 +55,6 @@ namespace Infrastructure.Repositories.MongoDB
         public async Task<List<ReclamoPremio>> ConsultarReclamosPremiosUsuarioMongo(Guid idUsuario)
         {
             var reclamosPremioMongo = await _reclamoPremioCollection.Find(r => r.IdUsuario == idUsuario).ToListAsync();
-            Console.WriteLine(reclamosPremioMongo.ElementAt(0).IdUsuario);
             var reclamos = reclamosPremioMongo.Select(s => ReclamoPremioFactory.CrearReclamoPremioConId(s.Id, s.IdUsuario, s.IdSubasta,
                 s.DireccionEnvio, s.MetodoEntrega, s.FechaReclamo)).ToList();
 

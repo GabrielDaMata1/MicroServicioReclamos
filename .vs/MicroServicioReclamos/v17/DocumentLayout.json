@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\infrastructure\\repositories\\mongodb\\reclamopremiomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\mongodb\\reclamopremiomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\handler\\consultarreclamohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\handler\\consultarreclamohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\handler\\consultarreclamopremiousuariohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\handler\\consultarreclamopremiousuariohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\interfaces\\ireclamoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ireclamoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\services\\notificacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\handler\\registrarresolucionreclamohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\handler\\registrarresolucionreclamohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\handler\\consultarreclamohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\handler\\consultarreclamohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\services\\subastaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,20 +95,12 @@
       "RelativeMoniker": "D:0:0:{AAB541F2-9579-49F2-AC8F-EB189D4603DF}|TestMicroservicioReclamos\\TestMicroservicioReclamos.csproj|solutionrelative:testmicroservicioreclamos\\commandtest\\confirmarentregapremiocommandtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\interfaces\\ireclamoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ireclamoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\services\\reclamoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\services\\reclamoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\infrastructure\\repositories\\mongodb\\resolucionreclamomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\mongodb\\resolucionreclamomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\infrastructure\\repositories\\mongodb\\reclamopremiomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD5C17D2-A553-47A8-911A-04A0368DDF7A}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\mongodb\\reclamopremiomongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\query\\consultarreclamosusuarioquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -165,10 +169,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\application\\handler\\registrarreclamohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84103686-162D-4F6A-883C-2030C93ABCC4}|Application\\Application.csproj|solutionrelative:application\\handler\\registrarreclamohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E25AF416-F089-4337-8D66-791CFC7A089B}|Domain\\Domain.csproj|c:\\users\\adbla\\documents\\github\\microservicioreclamos\\domain\\interfaces\\isubastaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -326,17 +326,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 208,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 3,
               "Title": "IReclamoService.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IReclamoService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IReclamoService.cs",
               "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IReclamoService.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IReclamoService.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAiwGYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAwwF4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T19:14:35.621Z",
               "IsPinned": true,
@@ -344,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ReclamoService.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Services\\ReclamoService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\ReclamoService.cs",
@@ -357,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "ResolucionReclamoMongoRepository.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\MongoDB\\ResolucionReclamoMongoRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\MongoDB\\ResolucionReclamoMongoRepository.cs",
@@ -370,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ReclamoResolucionDTO.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\DTOs\\ReclamoResolucionDTO.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\ReclamoResolucionDTO.cs",
@@ -383,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ConsultarReclamosResolucionHandler.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\ConsultarReclamosResolucionHandler.cs",
               "RelativeDocumentMoniker": "Application\\Handler\\ConsultarReclamosResolucionHandler.cs",
@@ -396,41 +396,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 0,
               "Title": "ReclamoPremioMongoRepository.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\MongoDB\\ReclamoPremioMongoRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\MongoDB\\ReclamoPremioMongoRepository.cs",
               "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\MongoDB\\ReclamoPremioMongoRepository.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\MongoDB\\ReclamoPremioMongoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAswDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T23:34:48.355Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "INotificacionService.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\INotificacionService.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\INotificacionService.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\INotificacionService.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\INotificacionService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T01:13:04.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegistrarResolucionReclamoHandler.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\RegistrarResolucionReclamoHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Handler\\RegistrarResolucionReclamoHandler.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\RegistrarResolucionReclamoHandler.cs",
-              "RelativeToolTip": "Application\\Handler\\RegistrarResolucionReclamoHandler.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAYwDAAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T00:55:33.112Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -451,7 +426,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "ConsultarReclamoPremioUsuarioHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\ConsultarReclamoPremioUsuarioHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handler\\ConsultarReclamoPremioUsuarioHandler.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\ConsultarReclamoPremioUsuarioHandler.cs",
+              "RelativeToolTip": "Application\\Handler\\ConsultarReclamoPremioUsuarioHandler.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwD4AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T00:32:52.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "INotificacionService.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\INotificacionService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\INotificacionService.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\INotificacionService.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\INotificacionService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T01:13:04.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ConsultarReclamoHandler.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\ConsultarReclamoHandler.cs",
               "RelativeDocumentMoniker": "Application\\Handler\\ConsultarReclamoHandler.cs",
@@ -464,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "NotificacionService.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Services\\NotificacionService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\NotificacionService.cs",
@@ -472,25 +472,36 @@
               "RelativeToolTip": "Application\\Services\\NotificacionService.cs",
               "ViewState": "AgIAAFAAAAAAAAAAAAAgwGIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T23:42:22.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-11T23:42:22.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConsultarReclamoPremioUsuarioHandler.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\ConsultarReclamoPremioUsuarioHandler.cs",
-              "RelativeDocumentMoniker": "Application\\Handler\\ConsultarReclamoPremioUsuarioHandler.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\ConsultarReclamoPremioUsuarioHandler.cs",
-              "RelativeToolTip": "Application\\Handler\\ConsultarReclamoPremioUsuarioHandler.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAYwEAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUsuarioService.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IUsuarioService.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IUsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T00:32:52.32Z",
+              "WhenOpened": "2025-07-06T19:36:47.243Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "RegistrarResolucionReclamoHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\RegistrarResolucionReclamoHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handler\\RegistrarResolucionReclamoHandler.cs",
+              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\RegistrarResolucionReclamoHandler.cs",
+              "RelativeToolTip": "Application\\Handler\\RegistrarResolucionReclamoHandler.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAYwDAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T00:55:33.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ConsultarReclamosHandler.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\ConsultarReclamosHandler.cs",
               "RelativeDocumentMoniker": "Application\\Handler\\ConsultarReclamosHandler.cs",
@@ -498,12 +509,11 @@
               "RelativeToolTip": "Application\\Handler\\ConsultarReclamosHandler.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAQwDIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T20:06:18.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T20:06:18.765Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "MongoRepositoryException.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Exception\\MongoRepositoryException.cs",
               "RelativeDocumentMoniker": "Application\\Exception\\MongoRepositoryException.cs",
@@ -515,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "SubastaService.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Services\\SubastaService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\SubastaService.cs",
@@ -523,12 +533,11 @@
               "RelativeToolTip": "Application\\Services\\SubastaService.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwEIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T19:09:44.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T19:09:44.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "ReclamoController.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\MicroservicioReclamos\\Controllers\\ReclamoController.cs",
               "RelativeDocumentMoniker": "MicroservicioReclamos\\Controllers\\ReclamoController.cs",
@@ -540,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\MicroservicioReclamos\\Program.cs",
               "RelativeDocumentMoniker": "MicroservicioReclamos\\Program.cs",
@@ -552,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ReclamoPremio.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Entities\\ReclamoPremio.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\ReclamoPremio.cs",
@@ -564,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "ConsultarReclamosResolucionQuery.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Query\\ConsultarReclamosResolucionQuery.cs",
               "RelativeDocumentMoniker": "Application\\Query\\ConsultarReclamosResolucionQuery.cs",
@@ -576,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "ResolucionReclamoRegistradaConsumerTest.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\TestMicroservicioReclamos\\ConsumerTest\\ResolucionReclamoRegistradaConsumerTest.cs",
               "RelativeDocumentMoniker": "TestMicroservicioReclamos\\ConsumerTest\\ResolucionReclamoRegistradaConsumerTest.cs",
@@ -588,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "ReclamoRegistradoConsumerTest.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\TestMicroservicioReclamos\\ConsumerTest\\ReclamoRegistradoConsumerTest.cs",
               "RelativeDocumentMoniker": "TestMicroservicioReclamos\\ConsumerTest\\ReclamoRegistradoConsumerTest.cs",
@@ -600,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "RegistrarResolucionReclamoCommandTest.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\TestMicroservicioReclamos\\CommandTest\\RegistrarResolucionReclamoCommandTest.cs",
               "RelativeDocumentMoniker": "TestMicroservicioReclamos\\CommandTest\\RegistrarResolucionReclamoCommandTest.cs",
@@ -612,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "RegistrarReclamoPremioCommandTest.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\TestMicroservicioReclamos\\CommandTest\\RegistrarReclamoPremioCommandTest.cs",
               "RelativeDocumentMoniker": "TestMicroservicioReclamos\\CommandTest\\RegistrarReclamoPremioCommandTest.cs",
@@ -624,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "RegistrarReclamoCommandTest.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\TestMicroservicioReclamos\\CommandTest\\RegistrarReclamoCommandTest.cs",
               "RelativeDocumentMoniker": "TestMicroservicioReclamos\\CommandTest\\RegistrarReclamoCommandTest.cs",
@@ -636,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "ConfirmarEntregaPremioCommandTest.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\TestMicroservicioReclamos\\CommandTest\\ConfirmarEntregaPremioCommandTest.cs",
               "RelativeDocumentMoniker": "TestMicroservicioReclamos\\CommandTest\\ConfirmarEntregaPremioCommandTest.cs",
@@ -648,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ConsultarReclamosUsuarioQuery.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Query\\ConsultarReclamosUsuarioQuery.cs",
               "RelativeDocumentMoniker": "Application\\Query\\ConsultarReclamosUsuarioQuery.cs",
@@ -660,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "ReclamoMongoRepository.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\MongoDB\\ReclamoMongoRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\MongoDB\\ReclamoMongoRepository.cs",
@@ -672,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "IReclamoMongoRepository.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IReclamoMongoRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IReclamoMongoRepository.cs",
@@ -684,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "ReclamoPremioPostgreSQLRepository.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\PostgreSQL\\ReclamoPremioPostgreSQLRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\PostgreSQL\\ReclamoPremioPostgreSQLRepository.cs",
@@ -696,7 +705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "ReclamoPostgreSQLRepository.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\PostgreSQL\\ReclamoPostgreSQLRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\PostgreSQL\\ReclamoPostgreSQLRepository.cs",
@@ -708,7 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "SubastaDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Persistance\\SubastaDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Persistance\\SubastaDbContext.cs",
@@ -720,7 +729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "ResolucionReclamoPostgreSQLMapper.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Mappers\\ResolucionReclamoPostgreSQLMapper.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Mappers\\ResolucionReclamoPostgreSQLMapper.cs",
@@ -732,7 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "ResolucionReclamoPostgreSQLRepository.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Repositories\\PostgreSQL\\ResolucionReclamoPostgreSQLRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\PostgreSQL\\ResolucionReclamoPostgreSQLRepository.cs",
@@ -744,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "ResolucionReclamoMongoMapper.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Mappers\\ResolucionReclamoMongoMapper.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Mappers\\ResolucionReclamoMongoMapper.cs",
@@ -756,7 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "ReclamoMongoMapper.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Mappers\\ReclamoMongoMapper.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Mappers\\ReclamoMongoMapper.cs",
@@ -768,7 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "ReclamoPostgreSQLMapper.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Mappers\\ReclamoPostgreSQLMapper.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Mappers\\ReclamoPostgreSQLMapper.cs",
@@ -780,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "ResolucionReclamoRegistradaConsumer.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Consumer\\ResolucionReclamoRegistradaConsumer.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Consumer\\ResolucionReclamoRegistradaConsumer.cs",
@@ -792,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "ReclamoPremioMongoMapper.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Mappers\\ReclamoPremioMongoMapper.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Mappers\\ReclamoPremioMongoMapper.cs",
@@ -804,7 +813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "ReclamoPremioPostgreSQLMapper.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Mappers\\ReclamoPremioPostgreSQLMapper.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Mappers\\ReclamoPremioPostgreSQLMapper.cs",
@@ -816,7 +825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "ReclamoRegistradoConsumer.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Consumer\\ReclamoRegistradoConsumer.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Consumer\\ReclamoRegistradoConsumer.cs",
@@ -828,7 +837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "ReclamoPremioRegistradoConsumer.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Infrastructure\\Consumer\\ReclamoPremioRegistradoConsumer.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Consumer\\ReclamoPremioRegistradoConsumer.cs",
@@ -840,7 +849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "RegistrarReclamoHandler.cs",
               "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Application\\Handler\\RegistrarReclamoHandler.cs",
               "RelativeDocumentMoniker": "Application\\Handler\\RegistrarReclamoHandler.cs",
@@ -849,18 +858,6 @@
               "ViewState": "AgIAACAAAAAAAAAAAAAAwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T19:22:24.044Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "IUsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IUsuarioService.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUsuarioService.cs",
-              "ToolTip": "C:\\Users\\ADBLA\\Documents\\GitHub\\MicroServicioReclamos\\Domain\\Interfaces\\IUsuarioService.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IUsuarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T19:36:47.243Z"
             },
             {
               "$type": "Document",
