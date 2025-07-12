@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using MongoDB.Driver;
 using System.Reflection;
+using Application.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -45,6 +46,11 @@ builder.Services.AddHttpClient<SubastaService>(client =>
     client.BaseAddress = new Uri("http://localhost:5003/api/Subastas/");
 });
 
+builder.Services.AddHttpClient<NotificacionService>(client =>
+{
+    client.BaseAddress = new Uri("http://localhost:5287/api/Notification/");
+});
+
 
 builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssembly(typeof(RegistrarReclamoCommand).Assembly));
@@ -60,6 +66,8 @@ builder.Services.AddScoped<IReclamoPremioPostgreSQLRepository, ReclamoPremioPost
 builder.Services.AddScoped<IReclamoService, ReclamoService>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 builder.Services.AddScoped<ISubastaService, SubastaService>();
+builder.Services.AddScoped<INotificacionService, NotificacionService>();
+
 
 
 // Configuraci�n de RabbitMQ con MassTransit

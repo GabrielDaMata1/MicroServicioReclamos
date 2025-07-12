@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Application.Command;
 using Application.Exception;
+using Application.Exceptions;
 using Domain.Events;
 using Domain.Factory;
 using Domain.Interfaces;
@@ -30,12 +31,22 @@ namespace Application.Handler
         /// Atributo que corresponde a las publicación de mensajes a la cola de RabbitMQ.
         /// </summary>
         private readonly IPublishEndpoint _publishEndpoint;
+        /// <summary>
+        /// Atributo que corresponde a las operaciones posibles que se pueden realizar sobre las notificaciones en el Microservicio Notificaciones, el cual será inyectado por inversión de dependencias.
+        /// </summary>
+        private readonly INotificacionService _notificacionService;
+        /// <summary>
+        /// Atributo que corresponde a las operaciones posibles que se pueden realizar sobre una subasta en el Microservicio Subasta, el cual será inyectado por inversión de dependencias.
+        /// </summary>
+        private readonly ISubastaService _subastaService;
 
-        public RegistrarReclamoPremioHandler(IUsuarioService usuarioService, IReclamoService reclamoService, IPublishEndpoint publishEndpoint)
+        public RegistrarReclamoPremioHandler(IUsuarioService usuarioService, IReclamoService reclamoService, IPublishEndpoint publishEndpoint, INotificacionService notificacionService, ISubastaService subastaService)
         {
             _reclamoService = reclamoService;
             _usuarioService = usuarioService;
             _publishEndpoint = publishEndpoint;
+            _notificacionService = notificacionService;
+            _subastaService = subastaService;
         }
 
         /// <summary>
@@ -46,6 +57,9 @@ namespace Application.Handler
         /// <returns>Retorna un valor booleano True si las operaciones fueron exitosas.</returns>
         /// <exception cref="UsuarioNoEncontradoException">
         /// Esta excepcion ocurre si no se pudo obtener el ID del usuario en el Microservicio Usuarios.
+        /// </exception>
+        /// <exception cref="FalloAlEnviarCorreoException">
+        /// Esta excepcion ocurre si no se pudo enviar el correo al subastador desde el Microservicio Notificaciones.
         /// </exception>
         /// <exception cref="FalloAlRegistrarReclamoException">
         /// Esta excepcion ocurre si ocurre un error al registrar el reclamo del premio en la base de datos o si ocurre un error inesperado.
@@ -77,6 +91,19 @@ namespace Application.Handler
                 //Se publica el mensaje en la cola de RabbitMQ para sincronizar la base de datos de MongoDB con PostgreSQL
                 await _publishEndpoint.Publish(new ReclamoPremioRegistradoEvent(reclamoPremio));
 
+                //Se obtiene la subasta donde se reclama el premio desde el Microservicio Subasta.
+                var subasta = await _subastaService.ObtenerSubastaPorGuid(request.reclamoDto.idSubasta);
+
+                //Se obtiene el correo del subastador que organizó la subasta desde el Microservicio Usuarios.
+                var correoSubastador = await _usuarioService.ObtenerCorreoPorIdAsync(subasta.idUsuario);
+
+                //Se envia la notificacion al subastador del reclamo del premio de su subasta desde el Microservicio Notificaciones.
+                var notificacionSubastador = await _notificacionService.EnviarCorreoSubastadorReclamoPremio(correoSubastador, subasta.nombreSubasta.Nombre, request.reclamoDto.correo);
+
+                //En caso de que falle el envio del correo en el Microservicio Notificaciones, se lanza la excepción
+                if (!notificacionSubastador)
+                    throw new FalloAlEnviarCorreoException();
+
                 return true;
 
             }
@@ -85,6 +112,10 @@ namespace Application.Handler
                 throw;
             }
             catch (FalloAlRegistrarReclamoException)
+            {
+                throw;
+            }
+            catch (FalloAlEnviarCorreoException)
             {
                 throw;
             }

@@ -1,6 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MicroservicioReclamos",
+    "\\MicroservicioReclamos\\Controllers",
+    "\\Test",
+    "\\Test\\CommandTest",
+    "\\Test\\ConsumerTest",
+    "\\Test\\HandlerTest",
+    "\\Test\\RepositoriesTest",
+    "\\Test\\RepositoriesTest\\MongoDBTest"
   ],
   "SelectedNode": "\\MicroservicioReclamos.sln",
   "PreviewInSolutionExplorer": false
